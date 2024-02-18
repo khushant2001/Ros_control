@@ -1,0 +1,38 @@
+{
+  "package_name": "messages",
+  "output_dir": "/home/khushant/pid/build/messages/rosidl_generator_cpp/messages",
+  "template_dir": "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages:msg/Pidsignal.idl",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages:msg/Refsignal.idl",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages:msg/Systemsignal.idl",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages:msg/Noise.idl"
+  ],
+  "target_dependencies": [
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../../../lib/python3.10/site-packages/rosidl_generator_cpp/__init__.py",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages/msg/Pidsignal.idl",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages/msg/Refsignal.idl",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages/msg/Systemsignal.idl",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages/msg/Noise.idl"
+  ],
+  "type_description_tuples": [
+    "msg/Pidsignal.idl:/home/khushant/pid/build/messages/rosidl_generator_type_description/messages/msg/Pidsignal.json",
+    "msg/Refsignal.idl:/home/khushant/pid/build/messages/rosidl_generator_type_description/messages/msg/Refsignal.json",
+    "msg/Systemsignal.idl:/home/khushant/pid/build/messages/rosidl_generator_type_description/messages/msg/Systemsignal.json",
+    "msg/Noise.idl:/home/khushant/pid/build/messages/rosidl_generator_type_description/messages/msg/Noise.json"
+  ]
+}

@@ -1,0 +1,50 @@
+[2.219s] Invoking command in '/home/khushant/pid/src/controller': PYTHONPATH=/home/khushant/pid/build/controller/prefix_override:/home/khushant/pid/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/khushant/pid/build/controller/build install --record /home/khushant/pid/build/controller/install.log --single-version-externally-managed
+[2.786s] running egg_info
+[2.786s] creating ../../build/controller/controller.egg-info
+[2.787s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[2.787s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[2.788s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[2.788s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[2.788s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[2.789s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[2.790s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[2.791s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[2.791s] running build
+[2.791s] running build_py
+[2.792s] creating /home/khushant/pid/build/controller/build
+[2.792s] creating /home/khushant/pid/build/controller/build/lib
+[2.792s] creating /home/khushant/pid/build/controller/build/lib/controller
+[2.793s] copying controller/ref.py -> /home/khushant/pid/build/controller/build/lib/controller
+[2.793s] copying controller/system.py -> /home/khushant/pid/build/controller/build/lib/controller
+[2.793s] copying controller/pid.py -> /home/khushant/pid/build/controller/build/lib/controller
+[2.793s] copying controller/__init__.py -> /home/khushant/pid/build/controller/build/lib/controller
+[2.794s] running install
+[2.794s] running install_lib
+[2.794s] creating /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller
+[2.795s] copying /home/khushant/pid/build/controller/build/lib/controller/ref.py -> /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller
+[2.795s] copying /home/khushant/pid/build/controller/build/lib/controller/system.py -> /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller
+[2.795s] copying /home/khushant/pid/build/controller/build/lib/controller/pid.py -> /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller
+[2.795s] copying /home/khushant/pid/build/controller/build/lib/controller/__init__.py -> /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller
+[2.797s] byte-compiling /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller/ref.py to ref.cpython-310.pyc
+[2.798s] byte-compiling /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller/system.py to system.cpython-310.pyc
+[2.798s]   File "/home/khushant/pid/install/controller/lib/python3.10/site-packages/controller/system.py", line 48
+[2.798s]     )]
+[2.799s]     ^
+[2.799s] SyntaxError: closing parenthesis ')' does not match opening parenthesis '[' on line 46
+[2.799s] 
+[2.800s] byte-compiling /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller/pid.py to pid.cpython-310.pyc
+[2.800s] byte-compiling /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller/__init__.py to __init__.cpython-310.pyc
+[2.800s] running install_data
+[2.801s] creating /home/khushant/pid/install/controller/share/ament_index
+[2.801s] creating /home/khushant/pid/install/controller/share/ament_index/resource_index
+[2.801s] creating /home/khushant/pid/install/controller/share/ament_index/resource_index/packages
+[2.801s] copying resource/controller -> /home/khushant/pid/install/controller/share/ament_index/resource_index/packages
+[2.801s] copying package.xml -> /home/khushant/pid/install/controller/share/controller
+[2.802s] running install_egg_info
+[2.805s] Copying ../../build/controller/controller.egg-info to /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info
+[2.806s] running install_scripts
+[2.847s] Installing pid script to /home/khushant/pid/install/controller/lib/controller
+[2.848s] Installing ref script to /home/khushant/pid/install/controller/lib/controller
+[2.848s] Installing system script to /home/khushant/pid/install/controller/lib/controller
+[2.849s] writing list of installed files to '/home/khushant/pid/build/controller/install.log'
+[3.076s] Invoked command in '/home/khushant/pid/src/controller' returned '0': PYTHONPATH=/home/khushant/pid/build/controller/prefix_override:/home/khushant/pid/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/khushant/pid/build/controller/build install --record /home/khushant/pid/build/controller/install.log --single-version-externally-managed

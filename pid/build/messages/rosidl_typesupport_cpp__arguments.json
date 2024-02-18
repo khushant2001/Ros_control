@@ -1,0 +1,23 @@
+{
+  "package_name": "messages",
+  "output_dir": "/home/khushant/pid/build/messages/rosidl_typesupport_cpp/messages",
+  "template_dir": "/home/khushant/ros2_iron/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages:msg/Pidsignal.idl",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages:msg/Refsignal.idl",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages:msg/Systemsignal.idl",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages:msg/Noise.idl"
+  ],
+  "target_dependencies": [
+    "/home/khushant/ros2_iron/install/rosidl_typesupport_cpp/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/home/khushant/ros2_iron/install/rosidl_typesupport_cpp/lib/python3.10/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/home/khushant/ros2_iron/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/home/khushant/ros2_iron/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages/msg/Pidsignal.idl",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages/msg/Refsignal.idl",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages/msg/Systemsignal.idl",
+    "/home/khushant/pid/build/messages/rosidl_adapter/messages/msg/Noise.idl"
+  ]
+}

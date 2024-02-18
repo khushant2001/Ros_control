@@ -1,0 +1,19 @@
+[2.154s] Invoking command in '/home/khushant/pid/build/controller': PYTHONPATH=/home/khushant/pid/build/controller/prefix_override:/home/khushant/pid/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/khushant/pid/build/controller/build --no-deps install_data
+[2.791s] running develop
+[3.091s] running egg_info
+[3.091s] writing controller.egg-info/PKG-INFO
+[3.092s] writing dependency_links to controller.egg-info/dependency_links.txt
+[3.092s] writing entry points to controller.egg-info/entry_points.txt
+[3.093s] writing requirements to controller.egg-info/requires.txt
+[3.093s] writing top-level names to controller.egg-info/top_level.txt
+[3.096s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[3.097s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[3.107s] running build_ext
+[3.107s] Creating /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller.egg-link (link to .)
+[3.109s] Installing pid script to /home/khushant/pid/install/controller/lib/controller
+[3.111s] Installing ref script to /home/khushant/pid/install/controller/lib/controller
+[3.111s] Installing system script to /home/khushant/pid/install/controller/lib/controller
+[3.113s] 
+[3.114s] Installed /home/khushant/pid/build/controller
+[3.114s] running install_data
+[3.172s] Invoked command in '/home/khushant/pid/build/controller' returned '0': PYTHONPATH=/home/khushant/pid/build/controller/prefix_override:/home/khushant/pid/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/khushant/pid/build/controller/build --no-deps install_data

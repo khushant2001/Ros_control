@@ -1,0 +1,26 @@
+[2.361s] Invoking command in '/home/khushant/pid/src/controller': PYTHONPATH=/home/khushant/pid/build/controller/prefix_override:/home/khushant/pid/install/controller/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/khushant/pid/build/controller/build install --record /home/khushant/pid/build/controller/install.log --single-version-externally-managed
+[2.959s] running egg_info
+[2.960s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[2.962s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[2.962s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[2.962s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[2.962s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[2.964s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[2.965s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[2.965s] running build
+[2.965s] running build_py
+[2.966s] copying controller/pid.py -> /home/khushant/pid/build/controller/build/lib/controller
+[2.966s] running install
+[2.966s] running install_lib
+[2.967s] copying /home/khushant/pid/build/controller/build/lib/controller/pid.py -> /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller
+[2.968s] byte-compiling /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller/pid.py to pid.cpython-310.pyc
+[2.969s] running install_data
+[2.970s] running install_egg_info
+[2.975s] removing '/home/khushant/pid/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info' (and everything under it)
+[2.976s] Copying ../../build/controller/controller.egg-info to /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info
+[2.976s] running install_scripts
+[3.014s] Installing pid script to /home/khushant/pid/install/controller/lib/controller
+[3.014s] Installing ref script to /home/khushant/pid/install/controller/lib/controller
+[3.014s] Installing system script to /home/khushant/pid/install/controller/lib/controller
+[3.014s] writing list of installed files to '/home/khushant/pid/build/controller/install.log'
+[3.057s] Invoked command in '/home/khushant/pid/src/controller' returned '0': PYTHONPATH=/home/khushant/pid/build/controller/prefix_override:/home/khushant/pid/install/controller/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/khushant/pid/build/controller/build install --record /home/khushant/pid/build/controller/install.log --single-version-externally-managed

@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.000329] (messages) JobQueued: {'identifier': 'messages', 'dependencies': OrderedDict()}
+[0.000389] (controller) JobStarted: {'identifier': 'controller'}
+[0.074924] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[0.076543] (messages) JobStarted: {'identifier': 'messages'}
+[0.100008] (-) TimerEvent: {}
+[0.201632] (-) TimerEvent: {}
+[0.297070] (messages) JobEnded: {'identifier': 'messages', 'rc': 'SIGINT'}
+[0.298150] (-) EventReactorShutdown: {}
