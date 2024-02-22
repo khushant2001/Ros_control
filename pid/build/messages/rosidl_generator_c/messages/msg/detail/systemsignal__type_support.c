@@ -6,8 +6,8 @@
 
 #include "messages/msg/detail/systemsignal__struct.h"
 #include "messages/msg/detail/systemsignal__functions.h"
-#include "messages/msg/detail/systemsignal__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "messages/msg/detail/systemsignal__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

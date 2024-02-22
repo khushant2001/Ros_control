@@ -4,6 +4,7 @@
     "/home/khushant/pid/src/messages:msg/Pidsignal.msg",
     "/home/khushant/pid/src/messages:msg/Refsignal.msg",
     "/home/khushant/pid/src/messages:msg/Systemsignal.msg",
-    "/home/khushant/pid/src/messages:msg/Noise.msg"
+    "/home/khushant/pid/src/messages:msg/Noise.msg",
+    "/home/khushant/pid/src/messages:msg/Filter.msg"
   ]
 }

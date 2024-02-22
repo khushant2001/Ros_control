@@ -1,4 +1,5 @@
 [console_scripts]
+kalman = controller.kalman:main
 noise = controller.noise:main
 pid = controller.pid:main
 ref = controller.ref:main

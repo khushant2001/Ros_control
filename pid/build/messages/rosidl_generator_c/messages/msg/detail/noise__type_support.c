@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "messages/msg/detail/noise__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "messages/msg/detail/noise__struct.h"
 #include "messages/msg/detail/noise__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "messages/msg/detail/noise__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

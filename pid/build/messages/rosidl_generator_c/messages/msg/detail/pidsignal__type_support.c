@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "messages/msg/detail/pidsignal__functions.h"
 #include "messages/msg/detail/pidsignal__type_support.h"
-#include "messages/msg/detail/pidsignal__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "messages/msg/detail/pidsignal__functions.h"
+#include "messages/msg/detail/pidsignal__struct.h"
 
 #ifdef __cplusplus
 extern "C"

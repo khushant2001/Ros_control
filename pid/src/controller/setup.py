@@ -23,7 +23,8 @@ setup(
             "system = controller.system:main",
             "pid = controller.pid:main",
             "ref = controller.ref:main",
-            "noise = controller.noise:main"
+            "noise = controller.noise:main",
+            "kalman = controller.kalman:main"
         ],
     },
 )

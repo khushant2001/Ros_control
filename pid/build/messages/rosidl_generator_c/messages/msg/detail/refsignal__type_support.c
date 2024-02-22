@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "messages/msg/detail/refsignal__functions.h"
-#include "messages/msg/detail/refsignal__type_support.h"
 #include "messages/msg/detail/refsignal__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "messages/msg/detail/refsignal__type_support.h"
+#include "messages/msg/detail/refsignal__functions.h"
 
 #ifdef __cplusplus
 extern "C"

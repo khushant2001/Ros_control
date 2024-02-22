@@ -6,6 +6,7 @@ from numpy import float32
 from messages.msg import Pidsignal
 from messages.msg import Systemsignal
 from messages.msg import Noise
+from messages.msg import Filter
 # Things to worry about: how to get time element. 
 
 # Mass spring system
@@ -26,7 +27,7 @@ C = np.array([
 ])
 D = np.zeros((1,1))
 
-time_step = .01
+time_step = .001
 pos = [0]
 vel = [0]
 
@@ -37,8 +38,15 @@ class system(Node):
         self.publisher = self.create_publisher(Systemsignal, "/system", 10)
         self.timer = self.create_timer(1, self.first_msg)
         self.noise_pub = self.create_subscription(Noise, "/add_noise", self.noise_value,10)
+        self.subscriber_kalman = self.create_subscription(Filter, "/kalman_filter",self.kalman, 10)
         self.n = None
+        self.kalman_position = None
+        self.kalman_position = None
 
+    def kalman(self,signal:Filter):
+        self.get_logger().info("Getting Kalman estimation")
+        self.kalman_position = float(signal.position)
+        self.kalman_velocity = float(signal.velocity)
     def noise_value(self,Noise):
         self.get_logger().info("Adding noise")
         self.n = Noise.noise

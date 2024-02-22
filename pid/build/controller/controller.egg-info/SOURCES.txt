@@ -9,6 +9,7 @@ setup.py
 ../../build/controller/controller.egg-info/top_level.txt
 ../../build/controller/controller.egg-info/zip-safe
 controller/__init__.py
+controller/kalman.py
 controller/noise.py
 controller/pid.py
 controller/ref.py

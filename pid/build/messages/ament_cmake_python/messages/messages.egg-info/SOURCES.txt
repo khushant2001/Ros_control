@@ -5,6 +5,7 @@ messages.egg-info/SOURCES.txt
 messages.egg-info/dependency_links.txt
 messages.egg-info/top_level.txt
 messages/msg/__init__.py
+messages/msg/_filter.py
 messages/msg/_noise.py
 messages/msg/_pidsignal.py
 messages/msg/_refsignal.py

@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/messages__cpp"
+  "rosidl_generator_cpp/messages/msg/detail/filter__builder.hpp"
+  "rosidl_generator_cpp/messages/msg/detail/filter__struct.hpp"
+  "rosidl_generator_cpp/messages/msg/detail/filter__traits.hpp"
   "rosidl_generator_cpp/messages/msg/detail/noise__builder.hpp"
   "rosidl_generator_cpp/messages/msg/detail/noise__struct.hpp"
   "rosidl_generator_cpp/messages/msg/detail/noise__traits.hpp"
@@ -12,6 +15,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/messages/msg/detail/systemsignal__builder.hpp"
   "rosidl_generator_cpp/messages/msg/detail/systemsignal__struct.hpp"
   "rosidl_generator_cpp/messages/msg/detail/systemsignal__traits.hpp"
+  "rosidl_generator_cpp/messages/msg/filter.hpp"
   "rosidl_generator_cpp/messages/msg/noise.hpp"
   "rosidl_generator_cpp/messages/msg/pidsignal.hpp"
   "rosidl_generator_cpp/messages/msg/refsignal.hpp"

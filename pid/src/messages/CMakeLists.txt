@@ -19,6 +19,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Refsignal.msg"
   "msg/Systemsignal.msg"
   "msg/Noise.msg"
+  "msg/Filter.msg"
  )
 ament_export_dependencies(rosidl_default_runtime)
 ament_package()

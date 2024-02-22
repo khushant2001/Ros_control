@@ -1,0 +1,21 @@
+[1.052s] Invoking command in '/home/khushant/pid/build/controller': PYTHONPATH=/home/khushant/pid/build/controller/prefix_override:/home/khushant/pid/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/khushant/pid/build/controller/build --no-deps install_data
+[1.347s] running develop
+[1.485s] running egg_info
+[1.485s] writing controller.egg-info/PKG-INFO
+[1.485s] writing dependency_links to controller.egg-info/dependency_links.txt
+[1.485s] writing entry points to controller.egg-info/entry_points.txt
+[1.485s] writing requirements to controller.egg-info/requires.txt
+[1.485s] writing top-level names to controller.egg-info/top_level.txt
+[1.486s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[1.487s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[1.489s] running build_ext
+[1.489s] Creating /home/khushant/pid/install/controller/lib/python3.10/site-packages/controller.egg-link (link to .)
+[1.490s] Installing kalman script to /home/khushant/pid/install/controller/lib/controller
+[1.490s] Installing noise script to /home/khushant/pid/install/controller/lib/controller
+[1.490s] Installing pid script to /home/khushant/pid/install/controller/lib/controller
+[1.490s] Installing ref script to /home/khushant/pid/install/controller/lib/controller
+[1.490s] Installing system script to /home/khushant/pid/install/controller/lib/controller
+[1.490s] 
+[1.490s] Installed /home/khushant/pid/build/controller
+[1.490s] running install_data
+[1.510s] Invoked command in '/home/khushant/pid/build/controller' returned '0': PYTHONPATH=/home/khushant/pid/build/controller/prefix_override:/home/khushant/pid/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/khushant/pid/build/controller/build --no-deps install_data

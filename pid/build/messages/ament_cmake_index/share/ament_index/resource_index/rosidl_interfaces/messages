@@ -1,3 +1,5 @@
+msg/Filter.idl
+msg/Filter.msg
 msg/Noise.idl
 msg/Noise.msg
 msg/Pidsignal.idl
