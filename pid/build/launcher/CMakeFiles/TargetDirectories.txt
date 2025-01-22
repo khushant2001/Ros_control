@@ -1,9 +1,0 @@
-/home/khushant/pid/build/launcher/CMakeFiles/uninstall.dir
-/home/khushant/pid/build/launcher/CMakeFiles/launcher_uninstall.dir
-/home/khushant/pid/build/launcher/CMakeFiles/test.dir
-/home/khushant/pid/build/launcher/CMakeFiles/edit_cache.dir
-/home/khushant/pid/build/launcher/CMakeFiles/rebuild_cache.dir
-/home/khushant/pid/build/launcher/CMakeFiles/list_install_components.dir
-/home/khushant/pid/build/launcher/CMakeFiles/install.dir
-/home/khushant/pid/build/launcher/CMakeFiles/install/local.dir
-/home/khushant/pid/build/launcher/CMakeFiles/install/strip.dir
